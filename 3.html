@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الطباعة - تفانين</title>
+    <style>
+        body {
+            background-color: #fff5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            margin-top: 50px;
+        }
+        .site-title {
+            color: #BF212E;
+            font-size: 48px;
+            margin: 0;
+        }
+        nav {
+            margin-top: 50px;
+        }
+        .nav-link {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #BF212E;
+            background-color: #ffe5e5;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .nav-link:hover {
+            background-color: #ffc5c5;
+            transform: scale(1.1);
+        }
+        section {
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            text-align: left;
+        }
+        .content h2 {
+            color: #BF212E;
+            font-size: 32px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .section-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #BF212E;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .section-button:hover {
+            background-color: #a71b24;
+            transform: scale(1.1);
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffe5e5;
+            color: #BF212E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="site-title">تفانين</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="studio.html" class="nav-link">Studio</a>
+        <a href="printing.html" class="nav-link">Printing</a>
+        <a href="writing.html" class="nav-link">Writing</a>
+    </nav>
+    <section id="printing">
+        <div class="content">
+            <h2>Printing</h2>
+            <p>مرحبًا بكم في قسم الطباعة. تعرف على تقنيات الطباعة الخاصة بنا وكيف يمكننا مساعدتك في مشاريع الطباعة الخاصة بك.</p>
+            <button class="section-button" onclick="location.href='index.html'">Back to Home</button>
+            <button class="section-button" onclick="location.href='studio.html'">Go to Studio</button>
+            <button class="section-button" onclick="location.href='writing.html'">Go to Writing</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 تفانين. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
